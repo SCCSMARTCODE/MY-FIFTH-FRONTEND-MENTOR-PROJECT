@@ -20,7 +20,7 @@ body{
 .project{
     display:flex;
     flex-direction: row;
-    width: 50vw;
+    width: 45vw;
     box-shadow: 2px 2px 7px 2px hsl(241, 100%, 89%);
     margin-bottom: 20px;
     border-radius: 20px;
@@ -28,7 +28,7 @@ body{
 }
 .firstpack{
     background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
-    width: 25vw;
+    width: 22.5vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -49,8 +49,8 @@ body{
  background-image: linear-gradient(360deg, hsla(241, 72%, 46%, 0),hsla(256, 72%, 46%, 1));  
  color: hsl(0, 0%, 100%);
  font-size: 50px;
- height: 200px;
- width: 200px;
+ height: 170px;
+ width: 170px;
  border-radius: 50%;
  margin-top: 20px;
  font-family: 'Hanken Grotesk', sans-serif;
@@ -58,9 +58,9 @@ body{
 }
 .circle h2{
     font-size: 6vw;
-    margin-bottom: -25px;
-     position: relative;
-     top: -20px;
+    margin-bottom: -60px;
+    position: relative;
+    top: -45px;
 }
 .circle h3{
     font-size: 18px;
@@ -100,8 +100,8 @@ body{
     
 }
 .grid{
-    width: 130%;
-    height: 5.5vh; 
+    width: 120%;
+    height: 4vh; 
     border-radius: 10px;
     padding: 14px;
     position: relative;
@@ -110,12 +110,12 @@ body{
     font-weight: 900;
     font-family: 'Hanken Grotesk', sans-serif;
     display: block;
-    left: -1vw;
-    line-height: 5.5vh;
+    left: -2vw;
+    line-height: 4vh;
 }
 .button{
     margin: auto;
-    width: 110%;
+    width: 90%;
     background-color: hsl(224, 30%, 27%);
     padding: 13px;
     border-radius: 25px;
@@ -124,9 +124,9 @@ body{
     color: hsl(0, 0%, 100%);
     font-family: 'Hanken Grotesk', sans-serif;
     font-size: 20px;
-    height: 5vh;
+    height: 4vh;
     margin-left: .5vw;
-    line-height: 5vh;
+    line-height: 4vh;
 
 }
 .button:hover{
