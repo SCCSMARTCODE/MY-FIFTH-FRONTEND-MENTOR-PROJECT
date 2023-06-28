@@ -20,21 +20,22 @@ body{
 .project{
     display:flex;
     flex-direction: row;
-    width: 55vw;
+    width: 50vw;
     box-shadow: 2px 2px 7px 2px hsl(241, 100%, 89%);
     margin-bottom: 20px;
     border-radius: 20px;
-    height: 75vh;
+    height: fit-content;
 }
 .firstpack{
     background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
-    width: 27.5vw;
+    width: 25vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 10px;
     border-radius: 20px;
+    box-sizing: border-box;
 
 }
 .secondpack{
